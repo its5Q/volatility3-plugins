@@ -42,12 +42,6 @@ class BitwardenDump(interfaces.plugins.PluginInterface):
                 description="Manually specifies process IDs where the extension is running",
                 optional=True,
             ),
-            requirements.BooleanRequirement(
-                name="dump",
-                description="Extract listed DLLs",
-                default=False,
-                optional=True,
-            ),
         ]
 
     @classmethod
